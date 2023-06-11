@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px;
+  float: right;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav b {
+  text-decoration: none;
+  padding: 0px 20px;
+  float: left;
+}
+.nav a.active {
+  background-color: #555;
+}
+.nav b.active {
+  background-color: #555;
+}
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav b:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.site-title {
+  font-size: 1.1rem;
+}
+
+.page-header {
+  font-family: Newsreader;
+  padding-top: 20px;
+  padding-left: 80px;
+  color: #444444;
+  font-size: 60px;
+  background-color: #ffffff;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardImg {
+  width: 300px;
+  position: relative;
+  display: flex;
+  height: 300px;
+}
+
+.homeLabel {
+  font-family: Newsreader;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #444444;
+  font-size: 50px;
+  background-color: #ffffff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.homeLogo {
+  font-family: Newsreader;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #444444;
+  font-size: 50px;
+  background-color: #ffffff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+}
+
+.continuebtn {
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 300px;
+}
+
+.barbers {
+  padding-left: 70px;
+  border: none;
+}
+
+.comment {
+  height: 150px;
+  width: 500px;
+  border: none;
+}
+
+.booking-policy {
+  font-family: Newsreader;
+  padding-top: 35px;
+  padding-right: 80px;
+  font-size: 25px;
+  color: black;
+}
+
+.header-line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: black;
+}
+
+.service-photo {
+  width: 90px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.service-about {
+  text-align: right;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-footer {
+  justify-content: space-between;
+  background: #fafaf5;
+  width: 100%;
+  height: 23%;
+
+  margin-top: auto;
+
+  bottom: 0;
+  left: 0;
+}
+
+.page-height {
+  height: 650px;
+}
+.footer-hours {
+  text-align: right;
+}
+
+.opening-hours {
+  text-align: right;
+}
+
+.card {
+  height: 100px;
+  width: 400px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.store-map {
+  height: 150px;
+  width: 150px;
+}
+
+.confirm-form {
+  padding-left: 0%;
+  text-align: left;
+}
+
+.ig-logo {
+  height: 30px;
+  width: 40px;
+}
+.social-logo {
+  height: 30px;
+  width: 40px;
+  padding-right: 10px;
+}
+
+.footer-header {
+  font-weight: bold;
+}
+
+.contact-page-center {
+  padding-left: 20%;
+}
+
+input[type='text'],
+textarea {
+  background-color: #d9d9d9;
+}
+.submit-button {
+  text-align: right;
+  padding-right: 35%;
+}
+
+.description {
+  padding-left: 80px;
+}
+.biggie {
+  padding-left: 40px;
+}
+.bookbtn {
+  text-align: right;
+}
+
+.service-photo {
+  height: 200px;
+  width: auto;
+}
+
+.services {
+  border: none;
+}
+
+.card-title {
+  font-family: Newsreader;
+  font-weight: bold;
+  font-size: 25pt;
+}
+.sbtn {
+  position: absolute;
+  top: 118%;
+  left: 68%;
+}
+.ssbtn {
+  position: absolute;
+  top: 65%;
+  left: 77%;
+}
+
+.barber-photo {
+  height: 400px;
+  width: auto;
+}
+
+.card-service {
+  font-family: Newsreader;
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.bcard:hover {
+  background-color: rgba(66, 107, 31, 1);
+  color: white;
+}
+
+.bcard-select {
+  text-align: center;
+  font-size: 50pt;
+  color: white;
+  font-weight: bold;
+}
+
+.ss {
+  height: 140px;
+  width: 400px;
+}
+
+.ss:active {
+  background-color: rgba(66, 107, 31, 1);
+}
+
+.ssheader {
+  font-family: Newsreader;
+  font-size: 17pt;
+}
+
+.cform {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.confirmbtn {
+  position: absolute;
+  top: 75%;
+  left: 58%;
+}
+
+.confirmfrm {
+  position: absolute;
+  top: -1%;
+  left: 125%;
+}
+
+.ntb {
+  font-family: Newsreader;
+
+  background-color: rgba(66, 107, 31, 1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.home2 {
+  padding-left: 0%;
+}
+
+.home1 {
+  padding-left: 30%;
+}
+.home1-photo {
+  height: 600px;
+  width: 370px;
+}
+
+.home2-photo {
+  height: 470px;
+  width: auto;
+}
+
+.ntb2 {
+  font-family: Newsreader;
+
+  background-color: rgba(66, 107, 31, 1);
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.submitbtn {
+  padding-top: 3%;
+  padding-left: 60%;
+}
+
+.policy {
+  font-size: 11pt;
+}
+
+.about-spacing {
+  padding-left: 10px;
+}
+.about-card-spacing {
+  padding-left: 30px;
+}
+.policy-spacing {
+  padding-left: 30%;
+  padding-right: 25%;
+}
+
+.align-r {
+  text-align: right;
+}
