@@ -15,7 +15,7 @@ export default function Book() {
         <div class="barbers">
           <div class="row">
             <div class="col-sm-4">
-              <Link to="/book/select" style={{ textDecoration: 'none' }}>
+              <Link to="/select" style={{ textDecoration: 'none' }}>
                 <div class="card bcard">
                   <p class="bcard-select">SELECT</p>
                   <img src="/lerma.png" class="barber-photo" alt="bug" />
@@ -36,7 +36,7 @@ export default function Book() {
               </Link>
             </div>
             <div class="col-sm-4">
-              <Link to="/book/select" style={{ textDecoration: 'none' }}>
+              <Link to="/select" style={{ textDecoration: 'none' }}>
                 <div class="card bcard">
                   <p class="bcard-select">SELECT</p>
                   <img src="/parayno.png" class="barber-photo" alt="bug" />

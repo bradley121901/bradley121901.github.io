@@ -384,3 +384,11 @@ textarea {
 .align-r {
   text-align: right;
 }
+
+.ntb:hover {
+  background-color: grey;
+}
+
+.ntb2:hover {
+  background-color: grey;
+}
