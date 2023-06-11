@@ -37,7 +37,7 @@ export default function Policy() {
         <br></br>
         <div class="policy-spacing">
           <Link to="/book">
-            <button class="ntb onClick={goBack}" type="submit">
+            <button class="ntb" onClick={goBack} type="submit">
               Confirm
             </button>
           </Link>
