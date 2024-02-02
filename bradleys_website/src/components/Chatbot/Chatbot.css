@@ -1,0 +1,30 @@
+.body {
+  font-family: 'Arial', sans-serif;
+}
+
+.chatbox-wrapper {
+  max-width: 380px;
+  max-height: 400px;
+  overflow: auto;
+  border: 2px solid #ccc; /* Add a border around the chatbox */
+  border-radius: 8px; /* Optional: Add rounded corners for a nicer look */
+  padding: 10px; /* Optional: Add padding inside the chatbox */
+}
+
+.chatbot-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.react-chatbot-kit-chat-input {
+  width: 85%;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  margin-left: 5%;
+  background-color: #66ff99;
+
+  width: 20px;
+}

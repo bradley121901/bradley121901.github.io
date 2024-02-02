@@ -1,0 +1,26 @@
+.banner-container {
+  overflow: hidden;
+  background-color: #606060;
+}
+
+.moving-banner {
+  font-size: 50px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #fff380;
+
+  padding: 10px;
+  animation: moveBanner 60s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateX(100%);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

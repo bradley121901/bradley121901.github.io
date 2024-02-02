@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72ada965.css",
+    "main.js": "/static/js/main.8e06e0a5.js",
+    "static/js/787.8dc38c32.chunk.js": "/static/js/787.8dc38c32.chunk.js",
+    "static/media/rbc-logo.png": "/static/media/rbc-logo.01ef2f5be81358dc56ad.png",
+    "static/media/bot.png": "/static/media/bot.cab4c04cb372df2aaf4b.png",
+    "static/media/ms-logo.png": "/static/media/ms-logo.5482d7523e2c2f83c41b.png",
+    "index.html": "/index.html",
+    "main.72ada965.css.map": "/static/css/main.72ada965.css.map",
+    "main.8e06e0a5.js.map": "/static/js/main.8e06e0a5.js.map",
+    "787.8dc38c32.chunk.js.map": "/static/js/787.8dc38c32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72ada965.css",
+    "static/js/main.8e06e0a5.js"
+  ]
+}
