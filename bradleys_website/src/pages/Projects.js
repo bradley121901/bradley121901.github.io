@@ -32,8 +32,11 @@ const Projects = () => {
             language. This model will be created with three layers, 128 neurons
             in the first layer, 64 neurons in the second layer, and the third
             layer will have a number of neurons equal to the intents needed to
-            predict the output. I would love to talk more about my ongoing hobby
-            projects as well as my exisiting ones!
+            predict the output. Be patient for the chatbot response as the Azure
+            resource takes awhile to send a request from where its from.
+            Furthermore due to a lack of large customized training data, the
+            chatbot is limited to a small closed-domain questioning and
+            answering.
             <br></br>
             <br></br> I am have high interest in cutting-edge technologies and
             this ongoing project is an extension of one of my interest in AI/ML
@@ -44,8 +47,11 @@ const Projects = () => {
             decision tree. Furthermore my Github has both full-stack web and
             Android development projects. These applications have a working
             backend to do basic SQL retrievals, additions, and updates.
-            Furthermore I have front-end React.js hobby projects to experiment
-            with solely front-end development.
+            <br></br>
+            <br></br>I am currently working on large dataset analysis and
+            visualization with BI, as well as contributing to LLM watermarking
+            research. I would love to talk more about my ongoing hobby projects
+            as well as my exisiting ones!
           </p>
         </div>
         <div className="r-column">
