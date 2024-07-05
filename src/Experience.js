@@ -20,7 +20,6 @@ const Experience = () => {
                 <br />
                 <br />
                 <h className="workheader">Thales Group</h>
-
                 <br />
                 <p>Software Developer</p>
                 <p>May 2024 - Dec 2024</p>
