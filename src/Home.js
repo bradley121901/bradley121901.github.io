@@ -7,18 +7,20 @@ const Home = () => {
     <div className="container">
       <p>bradley121901@gmail.com | +14388600415 | Toronto, Ontario Canada</p>
       <h1>Bradley Liu</h1>
+      <p>Graduating May 2025 | BSc Computer Science @University of Ottawa</p>
       <ul>
         <li>
-          <Link to="/work">Work Experience</Link>
+          <Link to="/experience">Professional Experience</Link>
         </li>
         <li>
           <Link to="/cat">
-            Intelligent Cat Laser Toy w/RaspberryPi + Python + Tensorflow +
-            SwiftUI
+            Intelligent Cat Laser Toy w/RaspberryPi + Python + Tensorflow
           </Link>
         </li>
         <li>
-          <Link to="/LLM-Watermark">LLM Watermarking Expansion w/Python</Link>
+          <Link to="/LLM-Watermark">
+            LLM Watermarking Expansion Research Paper
+          </Link>
         </li>
         <li>
           <a href="https://github.com/bradley121901">

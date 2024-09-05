@@ -14,7 +14,7 @@ const App = () => {
           <Route path="/Custom-Command-Line-Tool" element={<Openapi />} />
           <Route path="/cat" element={<Cat />} />
           <Route path="/LLM-Watermark" element={<Watermark />} />
-          <Route path="/work" element={<Experience />} />
+          <Route path="/experience" element={<Experience />} />
         </Routes>
       </div>
     </Router>
