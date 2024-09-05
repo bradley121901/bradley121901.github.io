@@ -7,10 +7,15 @@ const Home = () => {
     <div className="container">
       <p>bradley121901@gmail.com | +14388600415 | Toronto, Ontario Canada</p>
       <h1>Bradley Liu</h1>
-
       <ul>
         <li>
           <Link to="/work">Work Experience</Link>
+        </li>
+        <li>
+          <Link to="/cat">
+            Intelligent Cat Laser Toy w/RaspberryPi + Python + Tensorflow +
+            SwiftUI
+          </Link>
         </li>
         <li>
           <Link to="/LLM-Watermark">LLM Watermarking Expansion w/Python</Link>
@@ -21,9 +26,6 @@ const Home = () => {
             ETL data anaylsis)
           </a>
         </li>
-        {/* <li>
-          <Link to="/trading">Maximum Trading Profits Modelling w/C++</Link>
-        </li> */}
         {/* <li>
           <Link to="/Custom-Command-Line-Tool">
             Automated CLI API Client Tool w/OpenAPI Generator & Golang
