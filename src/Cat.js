@@ -73,7 +73,7 @@ const Cat = () => {
       />
       <p style={paragraphStyle}>
         I will keep this page updated. Currently waiting for a monitor and
-        playing around with OpenCV and TensorFlow - Sept 4
+        playing around with OpenCV and TensorFlow - Sept 17
       </p>
     </div>
   );

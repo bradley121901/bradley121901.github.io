@@ -5,9 +5,14 @@ import './Home.css'; // Assuming you create a CSS file named Home.css for stylin
 const Home = () => {
   return (
     <div className="container">
-      <p>bradley121901@gmail.com | +14388600415 | Toronto, Ontario Canada</p>
       <h1>Bradley Liu</h1>
-      <p>Graduating May 2025 | BSc Computer Science @University of Ottawa</p>
+      <p>
+        Graduating May 2025 | BSc Computer Science w/Data Science | University
+        of Ottawa w/3.9 GPA
+        <br></br>
+        <br></br>bradley121901@gmail.com | +14388600415 | Toronto, Ontario
+        Canada
+      </p>
       <ul>
         <li>
           <Link to="/experience">Professional Experience</Link>
