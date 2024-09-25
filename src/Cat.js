@@ -44,36 +44,35 @@ const Cat = () => {
       </p>
       <p style={{ ...paragraphStyle, fontWeight: 'bold' }}>Prototyping</p>
       <p style={paragraphStyle}>
-        I was reading about the Raspberry Pi and thought it would be a fun
-        project to prototype with. I started off this project with the latest
-        Raspberry Pi 5 and Raspberry Pi Camera Module 3 as of August 2024. I got
-        a few jumper cables, two servos, and a laser module. I planned the
-        project without the breadboard, as there were only three simple
-        components to be connected to the Pi. What I did not plan for was
-        finding out that the Raspberry Pi 5 is not compatible with servos. I
-        discovered that the Pi 5 does not have hardware PWM but instead a
-        virtual PWM, resulting in inconsistent pulses to the servos. I also had
-        trouble connecting the camera to the Pi due to wanting to keep my
-        libraries organized in virtual environments. There was a workaround I
-        found to copy the global libraries to the environment and then delete
-        them tediously off the Pi.
+        I started off this project with the latest Raspberry Pi 5 and Raspberry
+        Pi Camera Module 3 as of August 2024. I got a few jumper cables, two
+        servos, and a laser module. I planned the project without the
+        breadboard, as there were only three simple components to be connected
+        to the Pi. What I did not plan for was finding out that the Raspberry Pi
+        5 iterations removed its hardware PWM in place of a virtual PWM. This
+        results in inconsistent pulses causing jitter to the servos. I also had
+        trouble connecting the camera to the Pi using picamera installed on a
+        virtual environment instead of system-wide. I personally want to keep my
+        environments organized, and not directly installed in my machine. There
+        was a workaround I found to copy the global libraries to the environment
+        and then delete them tediously off the Pi.
       </p>
       <p style={paragraphStyle}>
-        For the hardware PWM, I needed a microcontroller, which I could then
-        control with the Pi. I had a Pi Zero 2W from some previous tinkering and
-        figured I could do without a true microcontroller for now. Currently,
-        the backend server handles UDP sent frames from the Pi 5 and has
-        endpoints to control the horizontal and vertical servos set up on the
-        Zero.
+        For the hardware PWM, I had a Pi Zero 2W from some previous tinkering
+        but with a half a GB of RAM, VS code extensions would even be too much
+        for the zero. So another Raspberry Pi 4 was purchased to build the first
+        prototype. My money spent on the Pi 5 will not be wasted, as I will find
+        another function for the machine. Just lots of disappointment from
+        Raspberry Pi.
       </p>
       <img
-        src={process.env.PUBLIC_URL + '/tools.png'}
+        src={process.env.PUBLIC_URL + '/preview.jpg'}
         alt="components"
         style={imageStyle}
       />
       <p style={paragraphStyle}>
-        I will keep this page updated. Currently waiting for a monitor and
-        playing around with OpenCV and TensorFlow - Sept 17
+        I will keep this page updated once I finish the algorithmn to sync cat
+        detection (YOLOv8) with servo movements. - Sept 25
       </p>
     </div>
   );
