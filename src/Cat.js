@@ -25,6 +25,7 @@ const Cat = () => {
   const imageStyle = {
     maxWidth: '50%',
     height: 'auto',
+    width: 'auto',
     margin: '20px 0',
   };
 
@@ -43,6 +44,13 @@ const Cat = () => {
         easily gets bored.
       </p>
       <p style={{ ...paragraphStyle, fontWeight: 'bold' }}>Prototyping</p>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img
+          src={process.env.PUBLIC_URL + '/preview.jpg'}
+          alt="components"
+          style={imageStyle}
+        />
+      </div>
       <p style={paragraphStyle}>
         I started off this project with the latest Raspberry Pi 5 and Raspberry
         Pi Camera Module 3 as of August 2024. I got a few jumper cables, two
@@ -66,13 +74,18 @@ const Cat = () => {
         Raspberry Pi.
       </p>
       <img
-        src={process.env.PUBLIC_URL + '/preview.jpg'}
-        alt="components"
+        src={process.env.PUBLIC_URL + '/catandtoy.jpg'}
+        alt="cat and toy"
+        style={imageStyle}
+      />
+      <img
+        src={process.env.PUBLIC_URL + '/screen.jpg'}
+        alt="screen"
         style={imageStyle}
       />
       <p style={paragraphStyle}>
         I will keep this page updated once I finish the algorithmn to sync cat
-        detection (YOLOv8) with servo movements. - Sept 25
+        detection (YOLOv8) with servo movements. - Oct 3
       </p>
     </div>
   );
