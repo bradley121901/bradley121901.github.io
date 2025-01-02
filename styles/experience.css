@@ -1,81 +1,92 @@
+body {
+  font-family: Helvetica, Sans-Serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  width: 100%;
+  background-color: white;
+  padding: 50px 0;
+}
+
 .header {
   font-size: 55px;
-  font-family: Helvetica, Sans-Serif;
   font-weight: bold;
   text-align: center;
 }
 
 .workheader {
   font-size: 40px;
-  font-family: Helvetica, Sans-Serif;
   font-weight: bold;
 }
 
 .thales-logo {
-  height: 150px;
+  height: 30px;
   width: 250px;
 }
+
 .rbc-logo {
   height: 100px;
   width: 75px;
 }
+
 .ms-logo {
   height: 100px;
   width: 100px;
 }
+
 .cmic-logo {
   height: 150px;
   width: 150px;
 }
-.ms_experience {
-  float: left;
-}
 
-.rbc_description {
-  float: right;
+.outer-container {
+  padding: 0 150px;
 }
 
 .work_container {
   display: flex;
-  left: 100%;
   background-color: white;
-  color: black;
+  margin-bottom: 40px;
+  padding: 20px;
   align-items: center;
-  justify-content: center;
 }
+
 .left-column {
   flex: 0.5;
-  display: flex;
-  background-color: white;
-  align-items: center;
-  justify-content: center;
   padding: 20px;
+  text-align: center;
 }
+
 .right-column {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.right-row {
-  flex: 1;
-  background-color: #f5f5f5;
-  padding: 20px;
-}
-
-.right-row:nth-child(2) {
-  flex: 1;
-  background-color: #e0e0e0;
   padding: 20px;
 }
 
 .left-row {
-  flex: 1;
-  background-color: white;
   padding: 20px;
 }
 
-.outer-container {
-  padding-left: 150px;
-  padding-right: 150px;
+.right-row {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.right-row:nth-child(2) {
+  background-color: #e0e0e0;
+}
+
+.rbc_description {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
