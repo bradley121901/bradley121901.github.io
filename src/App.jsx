@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import WelcomeProfile from './Components/WelcomeProfile/WelcomeProfile';
 import About from './Components/About/About';

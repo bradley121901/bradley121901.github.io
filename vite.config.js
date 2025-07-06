@@ -6,11 +6,15 @@ export default defineConfig({
   base: '/bradley121901.github.io/',
   build: {
     outDir: 'dist',
-    assetsInclude: ['**/*.jsx'],
     rollupOptions: {
       input: {
         main: './index.html',
       },
+      output: {
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
+      }
     },
   },
 });
