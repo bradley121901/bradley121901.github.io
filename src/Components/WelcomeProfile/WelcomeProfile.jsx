@@ -30,7 +30,7 @@ const WelcomeProfile = () => {
       </div>
       <div className="profile-content">
         <h1>
-          <span>Hi I'm Bradley!</span> I am a software engineer with a passion for building scalable and efficient systems.
+          <span>Hi I'm Bradley, it's nice to meet!</span> I am a software engineer with a passion for building robust, efficient, and scalable systems.
         </h1>
         <blockquote style={{
           margin: '20px 0 10px',

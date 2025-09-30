@@ -40,7 +40,7 @@ function Streaming() {
             For example, Stripe handles over 500 million API requests every day — and that’s not even counting the internal service calls required to process those requests.
           </p>
           <p style={{ fontSize: '18px', marginBottom: '28px' }}>
-            <em>(Fun fact:</em> that number is roughly equivalent to the population of the entire Earth when the first stock market emerged in Amsterdam in 1602<em>.)</em>
+            <em>(Fun fact! That number is roughly equivalent to the population of the entire Earth when the first stock market emerged in Amsterdam in 1602)</em>
           </p>
 
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
@@ -68,7 +68,7 @@ function Streaming() {
 
           <h2 style={{ fontWeight: 800, fontSize: '24px', margin: '24px 0 12px', background: 'linear-gradient(#86e1ff, #39aaca)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Fault Tolerance</h2>
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
-            Kafka offers large distributed storage, blurring the lines between an event streaming platform and a database. Event streams are stored in fault tolerant, distributed clusters of servers referenced as “brokers. In other words, events are written to disk and replicated across brokers ensuring reliable retention of this data. This also means clusters can be scaled horizontally to handle increased traffic. Though unlike a traditional database - Kafka stores events as an append-only log for each partition and data is immutable and expires after a configurable time or size.
+            Kafka offers large distributed storage, blurring the lines between an event streaming platform and a database. Event streams are stored in fault tolerant, distributed clusters of servers referenced as “brokers". In other words, events are written to disk and replicated across brokers ensuring reliable retention of this data. This also means clusters can be scaled horizontally to handle increased traffic. Though unlike a traditional database - Kafka stores events as an append-only log for each partition and data is immutable and expires after a configurable time or size.
           </p>
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
             SQS, pound for pound, offers a similar punch in reliability as messages are stored across multiple AWS availability zones. SQS provides high durability and fault tolerance by leveraging its underlying AWS infrastructure. This makes SQS much more manageable - especially with companies lacking a large headcount - as configurations are automatically created and changed without extra lift. 
