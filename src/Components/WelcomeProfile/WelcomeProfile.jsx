@@ -30,34 +30,20 @@ const WelcomeProfile = () => {
       </div>
       <div className="profile-content">
         <h1>
-          <span>Hi I'm Bradley!</span> I am a software developer based in
-          Toronto 🇨🇦
+          <span>Hi I'm Bradley!</span> I am a software engineer with a passion for building scalable and efficient systems.
         </h1>
-        <p>
-          I have contributed to various applications at multiple fintech
-          companies. I like to build. 🛠️
+        <blockquote style={{
+          margin: '20px 0 10px',
+          paddingLeft: '16px',
+          borderLeft: '4px solid rgba(134,225,255,0.5)',
+          color: 'rgba(255,255,255,0.9)',
+          fontSize: '22px'
+        }}>
+          <em>“Education never ends, Watson. It is a series of lessons, with the greatest for the last”</em>
+        </blockquote>
+        <p style={{ marginBottom: '0', opacity: 0.9, fontSize: '16px' }}>
+          <em>— Sherlock Holmes, <span style={{ fontStyle: 'italic' }}>His Last Bow</span></em>
         </p>
-        <div className="profile-action">
-          {/* <div className="profile-connect">
-            <AnchorLink
-              className={`anchor-link ${
-                activeSection === 'contact' ? 'active' : ''
-              }`}
-              offset={50}
-              href={`#contact`}
-              onClick={() => setActiveSection('contact')}
-            >
-              <p>Connect with me</p>
-            </AnchorLink> */}
-          {/* </div> */}
-          <a
-            href="/bradley-resume.pdf"
-            download="bradley-resume.pdf"
-            className="profile-resume"
-          >
-            My resume
-          </a>
-        </div>
       </div>
     </div>
   );

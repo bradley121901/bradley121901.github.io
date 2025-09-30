@@ -17,8 +17,9 @@ const About = () => {
             I pick up on new tools fast but my favourite tech stack currently is
             React/JS for frontend and Springboot/Kotlin for backend. 🛠️
           </p>
+  
 
-          <div className="about-skills">
+          {/* <div className="about-skills">
             <div className="about-skill">
               <p>Java & Kotlin</p>
               <hr style={{ width: '60%' }} />
@@ -35,7 +36,7 @@ const About = () => {
               <p>Kubernetes & Docker</p>
               <hr style={{ width: '60%' }} />
             </div>
-          </div>
+          </div> */}
           <div>
             Other than that, I find enjoyment in exploring the outdoors! 🏕️
           </div>
