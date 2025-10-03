@@ -72,7 +72,7 @@ function Monolith() {
             >
               Microservices
             </span>{' '}
-            Micro-services are a set of small independent services responsible
+            are a set of small independent services responsible
             for dedicated tasks. Each service is independent of one another and
             gets the luxury of having its own dedicated tooling allowing for
             more flexibility. These services communicate with each other over
