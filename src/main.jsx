@@ -1,11 +1,11 @@
-import { StrictMode, useEffect } from 'react'
-import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route, useLocation  } from 'react-router-dom'
-import './index.css'
-import App from './App.jsx'
-import Streaming from './Pages/Streaming.jsx'
-import Watermarking from './Pages/Watermarking.jsx'
-
+import { StrictMode, useEffect } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import './index.css';
+import App from './App.jsx';
+import Streaming from './Pages/Streaming.jsx';
+import Watermarking from './Pages/Watermarking.jsx';
+import Monolith from './Pages/Monolith.jsx';
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -22,14 +22,15 @@ export function Root() {
         <Route path="/" element={<App />} />
         <Route path="/streaming" element={<Streaming />} />
         <Route path="/watermarking" element={<Watermarking />} />
+        <Route path="/monolith" element={<Monolith />} />
         <Route path="*" element={<App />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Root />
-  </StrictMode>,
-)
+  </StrictMode>
+);

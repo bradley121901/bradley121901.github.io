@@ -39,6 +39,12 @@ function Watermarking() {
             — Boxer, <span style={{ fontStyle: 'italic' }}>Animal Farm</span>
           </p>
 
+          <p style={{ textAlign: 'center', marginTop: '10px' }}>
+            <a href="/llm-watermark.pdf" target="_blank" rel="noreferrer" style={{ color: '#39aaca' }}>
+              Open PDF in new tab
+            </a>
+          </p>
+          
           <div style={{
             marginTop: '20px',
             width: '100%',
@@ -69,12 +75,6 @@ function Watermarking() {
               </p>
             </object>
           </div>
-
-          <p style={{ textAlign: 'center', marginTop: '10px' }}>
-            <a href="/llm-watermark.pdf" target="_blank" rel="noreferrer" style={{ color: '#39aaca' }}>
-              Open PDF in new tab
-            </a>
-          </p>
         </div>
       </main>
 

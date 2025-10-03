@@ -9,12 +9,15 @@ function Articles() {
       <Link className="articles-link" to="/streaming">
         # A Comparison of Event Streaming Tools (Apache Kafka v.s. Amazon SQS)
       </Link>
+      <Link className="articles-link" to="/monolith">
+        # From Microservices Back to Monoliths
+      </Link>
       <Link className="articles-link" to="/watermarking">
-        # Watermarking Large Language Models
+        # A Study on Watermarking Large Language Models
       </Link>
 
       <div className="profile-action">
-          {/* <div className="profile-connect">
+        {/* <div className="profile-connect">
             <AnchorLink
               className={`anchor-link ${
                 activeSection === 'contact' ? 'active' : ''
@@ -25,17 +28,17 @@ function Articles() {
             >
               <p>Connect with me</p>
             </AnchorLink> */}
-          {/* </div> */}
-          <a
-            href="/bradley-resume.pdf"
-            download="bradley-resume.pdf"
-            className="profile-resume"
-          >
-            Download My Resume
-          </a>
-        </div>
+        {/* </div> */}
+        <a
+          href="/bradley-resume.pdf"
+          download="bradley-resume.pdf"
+          className="profile-resume"
+        >
+          Download My Resume
+        </a>
+      </div>
     </div>
   );
 }
 
-export default Articles; 
+export default Articles;
