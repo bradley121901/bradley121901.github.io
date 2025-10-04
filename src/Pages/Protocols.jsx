@@ -27,7 +27,8 @@ function Protocols() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            A Comparision of API Communication Protocols (REST, GraphQL, gRPC)
+            A Comparision of API Communication Protocols (REST v.s. GraphQL v.s.
+            gRPC)
           </h1>
           <blockquote
             style={{
@@ -120,7 +121,7 @@ function Protocols() {
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
             Now equipped with this knowledge to better decide how to build your
             API, you might still be leaning toward REST. But before you commit,
-            Google has something to whisper:{' '}
+            Google has something say:{' '}
             <span
               style={{
                 fontWeight: 800,
@@ -133,17 +134,18 @@ function Protocols() {
             </span>
             . The big tech behemoth’s answer to modern APIs emerged from Remote
             Procedure Call (RPC). We’ll pause this article for now, as I need to
-            get back to building, but when time frees up, I’ll update this post
-            with a brief summary of gRPC.
+            get back to building, but when my time frees up, I’ll update this
+            post with a brief summary and comparison of gRPC with the other API
+            communication protocols mentioned.
           </p>
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
             To conclude, whatever tooling you decide to build your API with,
             remember this: as a great engineer, research and understand all the
             options available to you. Weigh the benefits and drawbacks of each
             choice while considering the overall architecture of your service.
-            I’ve seen countless poor design decisions come back to bite harshly
-            down the road. Choose wisely, my friend, and I’ll see you again on
-            our next learning journey!
+            I’ve seen countless poor design decisions come back to bite back
+            harshly down the road. Choose wisely, my friend, and I’ll see you
+            again on our next learning journey!
           </p>
         </div>
         <div style={{ height: '80px' }} />
