@@ -6,6 +6,8 @@ import App from './App.jsx';
 import Streaming from './Pages/Streaming.jsx';
 import Watermarking from './Pages/Watermarking.jsx';
 import Monolith from './Pages/Monolith.jsx';
+import Protocols from './Pages/Protocols.jsx';
+
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -23,6 +25,7 @@ export function Root() {
         <Route path="/streaming" element={<Streaming />} />
         <Route path="/watermarking" element={<Watermarking />} />
         <Route path="/monolith" element={<Monolith />} />
+        <Route path="/communication-protocols" element={<Protocols />} />
         <Route path="*" element={<App />} />
       </Routes>
     </BrowserRouter>

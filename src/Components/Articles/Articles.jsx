@@ -9,6 +9,9 @@ function Articles() {
       <Link className="articles-link" to="/streaming">
         # A Comparison of Event Streaming Tools (Apache Kafka v.s. Amazon SQS)
       </Link>
+      <Link className="articles-link" to="/communication-protocols">
+        # A Gateway to API Communication Protocols
+      </Link>
       <Link className="articles-link" to="/monolith">
         # From Microservices Back to Monoliths
       </Link>
