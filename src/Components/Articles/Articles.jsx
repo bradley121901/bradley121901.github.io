@@ -10,7 +10,7 @@ function Articles() {
         # A Comparison of Event Streaming Tools (Apache Kafka v.s. Amazon SQS)
       </Link>
       <Link className="articles-link" to="/communication-protocols">
-        # A Gateway to API Communication Protocols
+        # A Comparision of API Communication Protocols (REST, GraphQL, gRPC)
       </Link>
       <Link className="articles-link" to="/monolith">
         # From Microservices Back to Monoliths

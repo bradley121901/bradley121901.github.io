@@ -27,7 +27,7 @@ function Protocols() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            A Gateway to API Communication Protocols
+            A Comparision of API Communication Protocols (REST, GraphQL, gRPC)
           </h1>
           <blockquote
             style={{
