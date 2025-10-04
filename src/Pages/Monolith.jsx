@@ -80,10 +80,10 @@ function Monolith() {
             </span>{' '}
             are a set of small independent services responsible for dedicated
             tasks. Each service is independent of one another and gets the
-            luxury of having its own dedicated tooling allowing for more
-            flexibility. These services communicate with each other over the
+            luxury of each having its own dedicated tooling allowing for
+            tooling flexibility. These services communicate with each other over the
             network using lightweight protocols such as HTTP. The division of
-            responsibilities also allows for independent scaling - offering more
+            responsibilities also allows for independent scaling - offering beefier
             infrastructure when it is really needed. Teams can iterate and
             deploy frequently without having to worry about their independent
             business units bringing down the entire application.
@@ -102,8 +102,7 @@ function Monolith() {
             , on the other hand, are unified codebases where business logic is
             tightly coupled together. This simplicity means teams only manage
             one codebase, with fewer concerns about orchestrating multiple
-            services and communication between them. On the other hand,
-            monoliths are single unified units where one code base tightly
+            services and communication between them. Monoliths are single unified units where one code base tightly
             couples business units together. This is simple in terms of focusing
             on one code base and less overhead orchestrating multiple services
             and their corresponding communication with each other - faster
