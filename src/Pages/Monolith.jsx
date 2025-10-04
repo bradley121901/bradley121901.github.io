@@ -58,6 +58,12 @@ function Monolith() {
             good ol' monolithic architecture.
           </p>
           <p style={{ fontSize: '18px', marginBottom: '16px' }}>
+            This may not be a philosophy class but it is important to ask why?
+            Why is it that the giant tech behemoths who eagerly adopted
+            microservices have started transitioning back to monolithic
+            architectures?
+          </p>
+          <p style={{ fontSize: '18px', marginBottom: '16px' }}>
             To answer that, let’s first define and differentiate the two
             approaches.
           </p>
@@ -72,13 +78,13 @@ function Monolith() {
             >
               Microservices
             </span>{' '}
-            are a set of small independent services responsible
-            for dedicated tasks. Each service is independent of one another and
-            gets the luxury of having its own dedicated tooling allowing for
-            more flexibility. These services communicate with each other over
-            the network using lightweight protocols such as HTTP. The division
-            of responsibilities also allows for independent scaling - offering
-            more infrastructure when it is really needed. Teams can iterate and
+            are a set of small independent services responsible for dedicated
+            tasks. Each service is independent of one another and gets the
+            luxury of having its own dedicated tooling allowing for more
+            flexibility. These services communicate with each other over the
+            network using lightweight protocols such as HTTP. The division of
+            responsibilities also allows for independent scaling - offering more
+            infrastructure when it is really needed. Teams can iterate and
             deploy frequently without having to worry about their independent
             business units bringing down the entire application.
           </p>
